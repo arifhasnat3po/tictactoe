@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-color: #004085;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn-lg {
+  font-size: 24px;
+}
+
+.board {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+
+
+td:hover {
+  background-color: #e9ecef;
+}
+
+.scoreboard {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #f1f3f4;
+}
+/* Apply border directly to the table */
+.board {
+  border: 10px solid #002e5f; /* Set the border width and color */
+}
+
+/* Reset styles for the td and th elements */
+td, th {
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  border: 1px solid #02346e; /* Set the border width and color */
+}
+
+/* Optional: Increase font size for better visibility */
+.board {
+  font-size: 1.5em;
+}
+/* Apply border directly to the table */
+.board { /* Set the border width and color */
+  border-spacing: 10px; /* Set the spacing between cells */
+  border-collapse: separate; /* Ensure border-spacing works */
+}
+
+/* Reset styles for the td and th elements */
+td, th {
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  border: 2px solid #013670; /* Set the border width and color for internal cells */
+}
+
+/* Add some padding to the cells for better visibility */
+td, th {
+  padding: 10px;
+}
+
+/* Optional: Increase font size for better visibility */
+.board {
+  font-size: 1.5em;
+}
